@@ -29,4 +29,4 @@ using (var stream = response.GetResponseStream())
 You can build the application yourself, or download and run the release [here](https://github.com/HeathHowren/prnt.sc-Web-Scraper/blob/master/PrintScreenApp/bin/Release/PrintScreenApp.exe). 
 <br />
 
-![screenshot](https://raw.githubusercontent.com/HeathHowren/prnt.sc-Web-Scraper/master/images/Capture.PNG?token=AMNS37YDVKJHVTI4UT6FDGS6RSZQ6)
+![screenshot](https://raw.githubusercontent.com/HeathHowren/prnt.sc-Web-Scraper/master/images/Capture.PNG?token=AMNS373F6BJSJSLMX2NQYRK6RS2N4)
