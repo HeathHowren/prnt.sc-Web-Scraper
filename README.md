@@ -6,7 +6,7 @@
 
 ## Code Samples
 
-The first part of this code uses [HtmlAgilityPack](https://html-agility-pack.net/) to spoof our application to appear as a web browser. It downloads the html data and parses it for the source file of the image.
+The first part of this code uses [HtmlAgilityPack](https://html-agility-pack.net/) to spoof our application to appear as a web browser. It then downloads the html data and parses it for the source file of the image.
 ```cs
 wc.Headers.Add("user-agent", "Mozilla/5.0 (Windows; Windows NT 5.1; rv:1.9.2.4) Gecko/20100611 Firefox/3.6.4");
 string html = wc.DownloadString(url);
