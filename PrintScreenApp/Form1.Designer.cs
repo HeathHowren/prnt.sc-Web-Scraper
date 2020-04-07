@@ -75,7 +75,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(15, 25);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(39, 20);
+            this.textBox1.Size = new System.Drawing.Size(48, 20);
             this.textBox1.TabIndex = 3;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -131,7 +131,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(91, 25);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(46, 20);
+            this.textBox2.Size = new System.Drawing.Size(53, 20);
             this.textBox2.TabIndex = 9;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -168,6 +168,7 @@
             this.ShowIcon = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "prnt.sc web scraper";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
